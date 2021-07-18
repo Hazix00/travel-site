@@ -1,0 +1,25 @@
+﻿.large-hero {
+    
+    position: relative;
+    display: flex;
+    /*width: 100%;*/
+    align-items: center;
+    justify-content: center;
+
+    &__text-content {
+        position: absolute;
+        /* top: 0;
+        left: 0; */
+        /* width: 100%; */
+        text-align: center;
+    }
+
+    &__title {
+        font-weight: 300;
+        font-size: 4.8rem;
+        color: #2f5572;
+    }
+    &__subtitle {
+        font-weight: normal;
+    }
+}
