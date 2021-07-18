@@ -7,9 +7,13 @@ module.exports = {
         path: path.resolve(__dirname, 'app', 'dist', 'js')
     },
     devServer: {
+        before(app, server) {
+            server._watch('./app/**/*.html')
+        },
         contentBase: path.join(__dirname, 'app'),
         hot: true,
-        port: 3000
+        port: 3000,
+        host: '0.0.0.0'
     },
     mode: 'development',
     
