@@ -1,0 +1,6 @@
+@mixin titles($fontSize) {
+    font-weight: 300;
+    font-size: $fontSize;
+    color: #2f5572;
+    margin: 0;
+}
