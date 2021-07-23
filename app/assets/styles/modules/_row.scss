@@ -1,0 +1,20 @@
+.row {
+
+
+    &__medium-4__image {
+        width: 100%;
+    }
+
+    @include respond(medium) {
+        display: flex;
+
+        &__medium-4 {
+            flex-basis: 33.33%;
+        }
+
+        &__medium-8 {
+            padding-left: 6.25%;
+            flex-basis: 66.66%;
+        }
+    }
+}
