@@ -5,6 +5,13 @@
         width: 100%;
     }
 
+    &__b-margin-until-medium {
+        margin-bottom: 1rem;
+        @include respond(medium) {
+            margin-bottom: 1rem;
+        }
+    }
+
     @include respond(medium) {
         display: flex;
 
