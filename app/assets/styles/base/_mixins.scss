@@ -1,7 +1,8 @@
-@mixin titles($fontSize) {
-    font-weight: 300;
+@mixin titles($fontSize, $fw:300, $color:$mainBlue) {
+    font-weight: $fw;
     font-size: $fontSize;
-    color: $mainBlue;
+    color: $color;
+    text-align: center;
     margin: 0;
 }
 
@@ -14,6 +15,6 @@
         @media (min-width: 800px) { @content }
     }
     @if($breakpoint == large)  {
-        @media (min-width: 1200px) { @content }
+        @media (min-width: 1010px) { @content }
     }
 }

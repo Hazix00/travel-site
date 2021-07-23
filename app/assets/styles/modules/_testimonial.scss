@@ -1,0 +1,33 @@
+.testimonial {
+    background-color: rgba($color: #fff, $alpha: .7);
+    padding: 0 18px 1px 18px;
+    margin-bottom: 98px;
+    @include respond(large) {
+        margin-bottom: 0;
+        padding: 0 1.8125rem 1px 1.8125rem;
+    }
+
+
+    &__photo {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto -80px auto;
+        position: relative;
+        top: -80px;
+        border: 6px solid rgba($color: #fff, $alpha: .7);;
+    }
+
+    &__title {
+        @include titles(500, 1.5rem);
+    }
+    &__subtitle {
+        @include titles(400, .9375rem, $mainOrange);
+        margin: .25rem 0 1rem 0;
+    }
+
+    &--last {
+        margin-bottom: 0;
+    }
+}

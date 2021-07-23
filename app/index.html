@@ -44,15 +44,15 @@
       <div class="wrapper wrapper--medium wrapper--b-margin">
         <img sizes="(min-width: 970px) 976px, 100vw" srcset="assets/images/first-trip-low-res.jpg 565w, assets/images/first-trip.jpg 976w, assets/images/first-trip-hi-dpi.jpg 1952w" alt="Couple walking down a street.">
       </div>
-      <div class="row">
-        <div class="row__medium-4 row__b-margin-until-medium">
+      <div class="row row--medium">
+        <div class="row--medium__4 row__b-margin-until-medium">
           <picture>
             <source sizes="404px" media="(min-width: 1020px)" srcset="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg 808w">
             <source sizes="320px" media="(min-width: 800px)" srcset="assets/images/our-start-portrait.jpg 382w, assets/images/our-start-portrait-hi-dpi.jpg w764">
-            <img class="row__medium-4__image" srcset="assets/images/our-start-landscape.jpg 800w, assets/images/our-start-landscape-hi-dpi.jpg 1600w" alt="Our founder, Jane Doe">
+            <img class="row--medium__4__image" srcset="assets/images/our-start-landscape.jpg 800w, assets/images/our-start-landscape-hi-dpi.jpg 1600w" alt="Our founder, Jane Doe">
           </picture>
         </div>
-        <div class="row__medium-8">
+        <div class="row--medium__8">
           <div class="generic-content-container">
             <h2 class="headline headline--no-t-margin">Here&rsquo;s how we got started&hellip;</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <a href="#">quis nostrud exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -68,10 +68,10 @@
     <div class="wrapper">
       <h2 class="section-title">
         <img class="section-title__icon" src="assets/images/icons/star.svg">
-        Our <strong>Features</strong>
+        Our <strong>Features</strong> 
       </h2>
-      <div class="row row__medium-offset-1 generic-content-container">
-        <div class="row__medium-6">
+      <div class="row row--medium row--medium--offset-2 generic-content-container">
+        <div class="row--medium__6">
           <div class="feature-item">
             <img class="feature-item__icon" src="assets/images/icons/rain.svg">
             <h3 class="feature-item__title">We&rsquo;ll Watch the Weather</h3>
@@ -83,7 +83,7 @@
             <p>We&rsquo;ve scoured the entire planet for the best retreats and beautiful vistas. If there&rsquo;s a corner of the world you want to escape to we know the most scenic and inspiring locations.</p>
           </div>
         </div>
-        <div class="row__medium-6">
+        <div class="row--medium__6">
           <div class="feature-item">
             <img class="feature-item__icon" src="assets/images/icons/wifi.svg">
             <h3 class="feature-item__title">Wi-Fi Waypoints</h3>
@@ -99,24 +99,46 @@
     </div>
   </div>
 
-  <div id="testimonials">
-    <img src="assets/images/icons/comment.svg">
-    <h2>Real Testimonials</h2>
-
-    <img src="assets/images/testimonial-jane.jpg">
-    <h3>Jane Doe</h3>
-    <h3>9 Time Escaper</h3>
-    <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&rdquo;</p>
-
-    <img src="assets/images/testimonial-john.jpg">
-    <h3>John Smith</h3>
-    <h3>4 Time Escaper</h3>
-    <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur.&rdquo;</p>
-
-    <img src="assets/images/testimonial-cat.jpg">
-    <h3>Cat McKitty</h3>
-    <h3>6 Time Escaper</h3>
-    <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.&rdquo;</p>
+  <div id="testimonials" class="page-section page-section--no-b-padding-until-large page-section--testimonials">
+    <div class="wrapper wrapper--no-padding-until-large">
+      
+      <h2 class="section-title section-title--blue">
+        <img class="section-title__icon" src="assets/images/icons/comment.svg">
+        Real <strong>Testimonials</strong>
+      </h2>
+      <div class="row row__large-offset-1 row--t-padding row--equal-height-at-large generic-content-container">
+        <div class="row__large-4">
+          <div class="testimonial">
+            <div class="testimonial__photo">
+              <img sizes="160px" srcset="assets/images/testimonial-jane.jpg 160w, assets/images/testimonial-jane-hi-dpi.jpg 320w" alt="jane">
+            </div>
+            <h3 class="testimonial__title">Jane Doe</h3>
+            <h4 class="testimonial__subtitle">9 Time Escaper</h4>
+            <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&rdquo;</p>
+          </div>
+        </div>
+        <div class="row__large-4">
+          <div class="testimonial">
+            <div class="testimonial__photo">
+              <img sizes="160px" srcset="assets/images/testimonial-john.jpg 160w, assets/images/testimonial-john-hi-dpi.jpg 320w" alt="john">
+            </div>
+            <h3 class="testimonial__title">John Smith</h3>
+            <h4 class="testimonial__subtitle">4 Time Escaper</h4>
+            <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur.&rdquo;</p>
+          </div>
+        </div>
+        <div class="row__large-4">
+          <div class="testimonial testimonial--last">
+            <div class="testimonial__photo">
+              <img sizes="160px" srcset="assets/images/testimonial-cat.jpg 160w, assets/images/testimonial-cat-hi-dpi.jpg 320w" alt="cat">
+            </div>
+            <h3 class="testimonial__title">Cat McKitty</h3>
+            <h4 class="testimonial__subtitle">6 Time Escaper</h4>
+            <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.&rdquo;</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <footer>
