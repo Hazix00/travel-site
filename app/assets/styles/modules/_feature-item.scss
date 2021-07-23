@@ -1,0 +1,32 @@
+.feature-item {
+    
+    padding-bottom: 1.5rem;
+
+    @include respond(small) {
+        position: relative;
+        padding-left: 94px;
+        padding-bottom: 2.5rem;
+    }
+
+    &__icon {
+        display: block;
+        margin: 0 auto;
+        @include respond(small) {
+            position: absolute;
+            left: 0;
+        }
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-top: 0.7em;
+        margin-bottom: 0.8rem;
+        @include respond(small) {
+            font-size: 1.875rem;
+            text-align: left;
+            margin-top: 1em;
+        }
+    }
+}

@@ -15,8 +15,19 @@
     @include respond(medium) {
         display: flex;
 
+        &__medium-offset-1 {
+            > div {
+                padding-left: 4.167%;
+                padding-right: 4.167%;
+            }
+        }
+
         &__medium-4 {
             flex-basis: 33.33%;
+        }
+
+        &__medium-4 {
+            flex-basis: 50%;
         }
 
         &__medium-8 {
