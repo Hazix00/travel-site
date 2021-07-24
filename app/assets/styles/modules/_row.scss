@@ -55,7 +55,8 @@
         }
         
     }
-
+    // TODO use sass variable to reuse column design for medium and large
+    // see https://css-tricks.com/snippets/sass/use-sass-variable-selector/
     @include respond(large) {
 
         display: flex;
